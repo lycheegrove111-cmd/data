@@ -1,0 +1,52 @@
+{
+  "data_root": "E:\\比赛们\\大数据挑战\\glaucoma_first\\glaucoma_first",
+  "splits": {
+    "train": {
+      "rows_original": 51396,
+      "rows_cleaned": 51396,
+      "rows_removed": 0,
+      "missing_images": 0,
+      "unreadable_images": 0,
+      "duplicate_rows": 0,
+      "invalid_labels": 0,
+      "missing_age": 10,
+      "age_anomaly": 0,
+      "median_age_used_for_imputation": 57.0,
+      "label_0": 49739,
+      "label_1": 1657
+    },
+    "valid": {
+      "rows_original": 5849,
+      "rows_cleaned": 5849,
+      "rows_removed": 0,
+      "missing_images": 0,
+      "unreadable_images": 0,
+      "duplicate_rows": 0,
+      "invalid_labels": 0,
+      "missing_age": 0,
+      "age_anomaly": 2,
+      "median_age_used_for_imputation": 57.0,
+      "label_0": 5658,
+      "label_1": 191
+    },
+    "test": {
+      "rows_original": 5855,
+      "rows_cleaned": 5855,
+      "rows_removed": 0,
+      "missing_images": 0,
+      "unreadable_images": 0,
+      "duplicate_rows": 0,
+      "invalid_labels": 0,
+      "missing_age": 0,
+      "age_anomaly": 0,
+      "median_age_used_for_imputation": 57.0
+    }
+  },
+  "total_issues": 0,
+  "cleaning_policy": [
+    "Keep the official train/valid/test split.",
+    "Remove missing or unreadable images, duplicate rows, and labels outside {0, 1}.",
+    "Keep age anomalies for traceability; impute missing ages with the cleaned split median.",
+    "Never modify or delete raw images or source CSV files."
+  ]
+}

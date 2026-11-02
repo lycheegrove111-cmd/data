@@ -1,0 +1,4 @@
+split,rows_original,rows_cleaned,rows_removed,missing_images,unreadable_images,duplicate_rows,invalid_labels,missing_age,age_anomaly,median_age_used_for_imputation,label_0,label_1
+train,51396,51396,0,0,0,0,0,10,0,57.0,49739.0,1657.0
+valid,5849,5849,0,0,0,0,0,0,2,57.0,5658.0,191.0
+test,5855,5855,0,0,0,0,0,0,0,57.0,,
